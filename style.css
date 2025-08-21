@@ -76,6 +76,18 @@ main:hover {
   font-weight: 600;
 }
 
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
 footer {
   text-align: center;
   background-color: #f1f5f9;
